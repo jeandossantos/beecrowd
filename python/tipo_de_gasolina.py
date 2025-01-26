@@ -12,7 +12,7 @@ while 1:
     elif opcao == 2:
         gasolina += 1
     elif opcao == 3:
-        diesel =+ 1
+        diesel += 1
     elif opcao == 4:
         print("MUITO OBRIGADO")
         print("Alcool:", alcool)
