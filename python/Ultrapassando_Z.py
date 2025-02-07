@@ -1,18 +1,18 @@
 # -*- coding: utf-8 -*-
 
 x = int(input())
-z = 0
+n = 0
 
-while z <= x:
-    z = int(input())
+while n <= x:
+    n = int(input())
 
 count = 1
 sum = x
 
-for i in range(x +1, z):
+for i in range(x +1, n):
     count += 1
     sum += i
-    
-    if sum > z: break
+
+    if sum > n: break
 
 print(count)
