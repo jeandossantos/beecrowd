@@ -15,7 +15,6 @@ somas = []
 
 while n <= 0:
         n = int(input())                
-    
 
 for i in range(0, n):
     somas.append( (a + i))
