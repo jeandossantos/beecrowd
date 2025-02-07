@@ -9,14 +9,6 @@ if n == 0 or n == 1:
 sum = n
 
 for i in range(n -1, 0, -1):
-    print(i)
     sum *= i
 
 print(sum)
-
-
-
-
-
-
-
