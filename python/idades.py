@@ -9,5 +9,3 @@ while 1:
     idades.append(idade)
 
 print(f"{sum(idades) / len(idades):.2f}")
-
-
