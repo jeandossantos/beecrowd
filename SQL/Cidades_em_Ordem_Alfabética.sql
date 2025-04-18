@@ -1,0 +1,1 @@
+select DISTINCT city from providers city order by city;
